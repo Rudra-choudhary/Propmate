@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Search.css'; 
-import mockProperties from '../data/data.js';
+// import mockProperties from '../data/data.js';
 const Search = () => {
   const navigate = useNavigate();
 

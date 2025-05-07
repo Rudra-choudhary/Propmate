@@ -35,11 +35,11 @@ const Home = () => {
     <div className="home-container">
 
 
-      <header className="hero-section">
+      <header className="main-section">
         <h1>Find Your Dream Home</h1>
         <p>Search properties and estimate your mortgage only with Propmate.</p>
         <Link to="/search">
-          <button className="hero-button">Start Searching</button>
+          <button className="main-button">Start Searching</button>
         </Link>
       </header>
 
@@ -51,11 +51,12 @@ const Home = () => {
             <option>Type</option>
             <option>House</option>
             <option>Apartment</option>
-            <option>Condo</option>
           </select>
           <input type="text" placeholder="Min Price" />
           <input type="text" placeholder="Max Price" />
+          <Link to="/search">
           <button className="search-btn">Search</button>
+          </Link>
         </div>
       </section>
 
