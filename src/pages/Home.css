@@ -35,7 +35,7 @@ body {
 
   text-align: center;
   padding: 60px 20px;
-  border-radius: 12px;
+  border-radius: 15px;
   margin-bottom: 40px;
 }
 
@@ -58,7 +58,7 @@ body {
   background-color: #2563eb;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
@@ -80,7 +80,7 @@ body {
 .filter-bar select {
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 10px;
   flex: 1;
   min-width: 140px;
 }
@@ -90,7 +90,7 @@ body {
   background-color: #10b981;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ body {
   background-color: white;
   border: 1px solid #e5e7eb;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 12px;
   flex: 1;
   min-width: 250px;
   text-align: center;
@@ -125,7 +125,7 @@ body {
   background-color: #22c55e;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: 500;
   cursor: pointer;
 }
