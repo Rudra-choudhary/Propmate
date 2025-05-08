@@ -7,9 +7,13 @@ function Navbar() {
     <div className="logo">🏡 PropMate</div>
     <div className="nav-links">
       <Link to="/">Home</Link>
-      <Link to="/search">Search</Link>
+      <Link to="/search">Properties</Link>
       <Link to="/mortgage-calculator">Mortgage</Link>
     </div>
+    {/* <div className='login'>
+    <Link to="/">Login</Link>
+    <Link to="/">Register</Link>
+    </div> */}
   </nav>
   );
 }

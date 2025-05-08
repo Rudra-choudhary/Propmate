@@ -6,16 +6,17 @@ import Search from './pages/Search';
 import MortgageCalculator from './pages/MortgageCalculator';
 
 function App() {
-  return (
+  return (<>
+
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
-
         <Route path="/mortgage-calculator" element={<MortgageCalculator />} />
       </Routes>
     </Router>
+    </>
   );
 }
 
